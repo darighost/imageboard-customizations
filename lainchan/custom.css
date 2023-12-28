@@ -4,7 +4,7 @@ have a Yotsuba B theme selected. */
 /* You can include CSS files from remote servers, for example: */
 /* @import "http://example.com/style.css"; */
 
-/* note: the live version of this resides here: 
+/* note: the live version of this resides here:
 http://146.190.155.167/lain.css
 And is updated manually. So if that digital ocean droplet
 goes down, lainchan is ugly again lol */
@@ -12,4 +12,4 @@ goes down, lainchan is ugly again lol */
 /* Text going across the whole screen width is ugly.
 Subjectively, 700px seems to be the prettiest width for
 reading */
-.postcontainer { max-width: 700px; }
+.postcontainer, .body { max-width: 700px; }
